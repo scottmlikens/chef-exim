@@ -1,0 +1,6 @@
+exim4-config exim4/dc_eximconfig_configtype select  internet site; mail is sent and received directly using SMTP
+exim4-config exim4/no_config boolean true
+exim4-config exim4/no_config boolean true
+# It's a good idea to set this to whatever user account you choose to
+# create. Leaving the value blank results in postmaster mail going to
+# /var/mail/mail.

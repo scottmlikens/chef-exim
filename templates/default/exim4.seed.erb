@@ -1,0 +1,13 @@
+exim4-config exim4/no_config boolean true
+exim4-config exim4/no_config boolean true
+exim4-config exim4/dc_eximconfig_configtype='smarthost'
+exim4-config exim4/dc_other_hostnames=''
+exim4-config exim4/dc_local_interfaces='127.0.0.1'
+exim4-config exim4/dc_readhost='<%= @fqdn %>'
+exim4-config exim4/dc_relay_domains=''
+exim4-config exim4/dc_minimaldns='false'
+exim4-config exim4/dc_relay_nets=''
+exim4-config exim4/dc_smarthost='smtp.sendgrid.net::587'
+exim4-config exim4/dc_use_split_config='false'
+exim4-config exim4/dc_hide_mailname='true'
+exim4-config exim4/dc_mailname_in_oh='true'
